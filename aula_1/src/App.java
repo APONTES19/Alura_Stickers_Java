@@ -10,7 +10,7 @@ public class App
 {
 	public static void main(String[] args) throws Exception
 	{
-		String	base = "https://imdb-api.com/en/API/Top250Movies/k_1xaulzt5";
+		String	base = "https://raw.githubusercontent.com/alura-cursos/imersao-java/api/TopMovies.json";
 		HttpClient client = HttpClient.newHttpClient();
 		URI	adress = URI.create(base);
 		HttpRequest request = HttpRequest.newBuilder(adress).GET().build();
