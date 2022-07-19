@@ -22,7 +22,7 @@ public class App
 		System.out.println(listaDeFilmes.size());
 		for (Map<String, String> filme : listaDeFilmes)
 		{
-			System.out.println(filme.get("title"));
+			System.out.println("Title" + filme.get("title"));
 			System.out.println(filme.get("image"));
 			System.out.println(filme.get("imDbRating"));
 			System.out.println();
